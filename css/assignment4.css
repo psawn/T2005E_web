@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: segoe ui ;
+}
+#year {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#calender {
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+}
+#page {
+    width: 700px;
+    height: 650px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+#item {
+    width: 605px;
+    margin: auto;
+    height: 112px;
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 10px;
+}
+#left {
+    width: 112px;
+    height: 110px;
+    float: left;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+#text {
+    float: left;
+    margin: 7px 0 0 10px;
+}
+#text h3 {
+    font-size: 14px;
+    color:#f2a853;
+}
+#text p {
+    font-size: 10px;
+}
+#text h4  {
+    font-size: 10px;
+}
+#price {
+    margin-top: 15px;
+    float: right;
+}
+#price > h4 {
+    font-size: 9px;
+    margin-left: 48px;
+}
+#price > #discount {
+    margin-top: -7px;
+    margin-left: 33px;
+    margin-bottom: 5px;
+}
+#discount > i {
+    font-size: 9px;
+}
+#smallprice {
+    font-size: 9px;
+    text-decoration: line-through;
+}
+#bigprice {
+    font-weight: bolder;
+    font-size: 20px;
+}
+#button {
+    width: 55px;
+    height: 25px;
+    background-color: #f2a853;
+    margin-right: 35px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+#button a {
+    color: #f9e7c7;
+    text-decoration: none;
+    margin-left: 14px;
+    font-size: 11px;
+    font-weight: 900;
+}
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 50px solid red;
+    border-left: 50px solid transparent;
+    position: relative;
+    float: right;
+    margin-right: -130px;
+}
+#percentage {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    float: right;
+    top: -45px;
+    right: 0;
+    transform: rotate(45deg);
+}
+#button0 {
+    width: 95px;
+    height: 30px;
+    background-color: red;
+    color:#f9e7c7;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#button0 > span {
+    margin-left: 7px;
+    font-size: 17px;
+    font-weight: 600;
+}
