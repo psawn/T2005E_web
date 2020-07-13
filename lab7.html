@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/lab7.css">
+    <link rel="stylesheet" href="libs/fontawesome/css/all.css">
+    <title>lab7</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="form">
+            <form method="post" action="#">
+                <div class="input">Billing Adress</div>
+                <div class="input">Payment</div>
+                <div class="input">
+                <label><i class="fas fa-user"></i> Full name</label><br>
+                <input type="text" name="fullname" class="long">
+                </div>
+                <div class="input">
+                    Accepted Card
+                    <br>
+                    <i class="fab fa-cc-visa" style="color: #010664"></i>
+                    <i class="fab fa-cc-amex" style="color: #0503c8"></i>
+                    <i class="fab fa-cc-mastercard" style="color: #dd040c"></i>
+                    <i class="fab fa-cc-discover" style="color:#fea201;"></i>
+                </div>
+                <div class="input">
+                <label><i class="fas fa-envelope"></i> Email</label><br>
+                <input type="email" name="email" class="long">
+                </div>
+                <div class="input">
+                    <label>Name on Card</label><br>
+                    <input type="tex" name="name_on_card" class="long">
+                </div>
+                <div class="input">
+                    <label><i class="far fa-address-card"></i> Address</label><br>
+                    <input type="tex" name="address" class="long">
+                </div>
+                <div class="input">
+                    <label>Credit card number</label><br>
+                    <input type="number" name="credit_card_number" class="long">
+                </div>
+                <div class="input">
+                    <label><i class="fas fa-university"></i> City</label><br>
+                    <input type="text" name="city" class="long">
+                </div>
+                <div class="input">
+                    <label>Exp Month</label><br>
+                    <input type="text" name="month" class="long">
+                </div>
+                <div class="input">
+                    <div class="small_input">
+                        <label>State</label><br>
+                        <input type="text" name="state" class="short">
+                    </div>
+                    <div class="small_input">
+                        <label>Zip</label><br>
+                        <input type="number" name="zip" class="short">
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="small_input">
+                        <label>Exp Year</label><br>
+                        <input type="number" name="year" class="short">
+                    </div>
+                    <div class="small_input">
+                        <label>CVV</label><br>
+                        <input type="number" name="cvv" class="short">
+                    </div>
+                </div>
+                <label><input type="checkbox" name="check"> Shipping address same as billing</label>
+                <br>
+                <button type="button" class="check_button">Continue to checkout</button>
+            </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
