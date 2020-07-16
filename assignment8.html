@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>assignment8</title>
+</head>
+<body>
+    <script>
+        confirm("Vui long nhap dung so tu 0 den 99.")
+        var ary = [];
+        for (var i =0;i<5;i++) {
+            ary[i] = prompt("Nhap day so cua ban");
+            ary[i] = parseInt(ary[i]);
+            console.log(ary[i]);
+        }
+        var random = [];
+        for (var j =0;j<5;j++) {
+            random[j] = parseInt(Math.random()*99+1);
+            console.log(random[j]);
+        }
+        var kq=0;
+        for (i=0;i<5;i++) {
+            if(ary[i]==random[i]) {
+                kq++;
+            }
+        }
+        alert("Vui long cho trong giay lat");
+        setTimeout(function () {
+            if (kq==5) {
+                alert("Thang");
+            } else {
+                alert("Thua");
+            }
+        },1500);
+
+    </script>
+</body>
+</html>
