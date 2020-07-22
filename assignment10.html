@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/assignment10.css">
+    <title>assignment10</title>
+</head>
+<body>
+
+    <section class="section">
+        <div class="container">
+            <div class="list">
+                <div class="item">
+                    <div class="left">
+                        <div class="img1">
+                        <img src="imgs/product-7.jpg">
+                        </div>
+                        <div class="img2">
+                        <img src="imgs/product-8.jpg">
+                        </div>
+                        <div class="product-flag">New</div>
+                        <div class="quick-view">
+                            <a class="quick_view">
+                                <i class="iconify search ion-ios-search-strong" data-icon="ion-ios-search-strong" data-inline="false"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a class="inner-link" href="#">
+                            <span>GRAPHIC CORNER</span>
+                        </a>
+                        <h2>
+                            <a href="#" class="product-link">
+                                Fila Locker Room Varsity Jacket
+                            </a>
+                        </h2>
+                        <div class="rating-product">
+                            <span class="iconify" data-icon="ion-star" data-inline="false"></span>
+                            <span class="iconify" data-icon="ion-star" data-inline="false"></span>
+                            <span class="iconify" data-icon="ion-star" data-inline="false"></span>
+                            <span class="iconify" data-icon="ion-star" data-inline="false"></span>
+                            <span class="iconify" data-icon="ion-star" data-inline="false"></span>
+                        </div>
+                        <div class="price">
+                            €18.90
+                        </div>
+                        <div class="intro">
+                            <p>The New Balance® Fresh Foam LAZR v1 Sport running shoe gives you total focus on the road with its precision-engineered design.</p>
+                            <p>Predecessor: None.</p>
+                            <p>Support Type: Neutral.</p>
+                            <p>Flat knit collar.</p>
+                        </div>
+                        <div class="in-stock">
+                            Availability:
+                            <span>299 In Stock</span>
+                        </div>
+                        <div class="add_to_cart">
+                            <ul>
+                                <li class="cart">
+                                    <a class="cart-btn" href="#">ADD TO CART </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="iconify icon" data-icon="ion-ios-shuffle-strong" ></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="iconify icon" data-icon="carbon:favorite"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="list" id="items">
+
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        var items = [
+            {
+            image1:"imgs/product-7.jpg",
+            image2:"imgs/product-8.jpg",
+            product_link:"Juicy Couture Tricot Logo Stripe Jacket-1",
+            price:"€18.90-1",
+            intro:"<p>1 Freshen up your look with the Juicy Couture™ Tricot Logo Stripe Jacket.</p>" +
+                "<p>Polyester fabrication flaunts stripe and brand logo detail at sleeves.</p>" +
+                "<p>Stand collar.</p>" +
+                "<p>Front-zipper closure.</p>" +
+                "100% polyester.",
+            in_stock:"1 In Stock",
+            },
+            {
+                image1:"imgs/product-5.jpg",
+                image2:"imgs/product-5.jpg",
+                product_link:"Juicy Couture Tricot Logo Stripe Jacket-2",
+                price:"€18.90-2",
+                intro:"<p>2 Freshen up your look with the Juicy Couture™ Tricot Logo Stripe Jacket.</p>" +
+                    "<p>Polyester fabrication flaunts stripe and brand logo detail at sleeves.</p>" +
+                    "<p>Stand collar.</p>" +
+                    "<p>Front-zipper closure.</p>" +
+                    "100% polyester.",
+                in_stock:"2 In Stock",
+            },
+            {
+                image1:"imgs/product-19.jpg",
+                image2:"imgs/product-20.jpg",
+                product_link:"Juicy Couture Tricot Logo Stripe Jacket-3",
+                price:"€18.90-3",
+                intro:"<p>3 Freshen up your look with the Juicy Couture™ Tricot Logo Stripe Jacket.</p>" +
+                    "<p>Polyester fabrication flaunts stripe and brand logo detail at sleeves.</p>" +
+                    "<p>Stand collar.</p>" +
+                    "<p>Front-zipper closure.</p>" +
+                    "100% polyester.",
+                in_stock:"3 In Stock",
+            },
+        ]
+        items.map(function (c) {
+            var html = "<div class=\"item\">\n" +
+                "                    <div class=\"left\">\n" +
+                "                        <div class=\"img1\">\n" +
+                "                        <img src=\""+c.image1+"\">\n" +
+                "                        </div>\n" +
+                "                        <div class=\"img2\">\n" +
+                "                        <img src=\""+c.image2+"\">\n" +
+                "                        </div>\n" +
+                "                        <div class=\"product-flag\">New</div>\n" +
+                "                        <div class=\"quick-view\">\n" +
+                "                            <a class=\"quick_view\">\n" +
+                "                                <i class=\"iconify search ion-ios-search-strong\" data-icon=\"ion-ios-search-strong\" data-inline=\"false\"></i>\n" +
+                "                            </a>\n" +
+                "                        </div>\n" +
+                "                    </div>\n" +
+                "                    <div class=\"right\">\n" +
+                "                        <a class=\"inner-link\" href=\"#\">\n" +
+                "                            <span>GRAPHIC CORNER</span>\n" +
+                "                        </a>\n" +
+                "                        <h2>\n" +
+                "                            <a href=\"#\" class=\"product-link\">\n" +
+                "                                "+c.product_link+"\n" +
+                "                            </a>\n" +
+                "                        </h2>\n" +
+                "                        <div class=\"rating-product\">\n" +
+                "                            <span class=\"iconify\" data-icon=\"ion-star\" data-inline=\"false\"></span>\n" +
+                "                            <span class=\"iconify\" data-icon=\"ion-star\" data-inline=\"false\"></span>\n" +
+                "                            <span class=\"iconify\" data-icon=\"ion-star\" data-inline=\"false\"></span>\n" +
+                "                            <span class=\"iconify\" data-icon=\"ion-star\" data-inline=\"false\"></span>\n" +
+                "                            <span class=\"iconify\" data-icon=\"ion-star\" data-inline=\"false\"></span>\n" +
+                "                        </div>\n" +
+                "                        <div class=\"price\">\n" +
+                "                            "+c.price+"\n" +
+                "                        </div>\n" +
+                "                        <div class=\"intro\">\n" +
+                "                            "+c.intro+"\n" +
+                "                        </div>\n" +
+                "                        <div class=\"in-stock\">\n" +
+                "                            Availability:\n" +
+                "                            <span>"+c.in_stock+"</span>\n" +
+                "                        </div>\n" +
+                "                        <div class=\"add_to_cart\">\n" +
+                "                            <ul>\n" +
+                "                                <li class=\"cart\">\n" +
+                "                                    <a class=\"cart-btn\" href=\"#\">ADD TO CART </a>\n" +
+                "                                </li>\n" +
+                "                                <li>\n" +
+                "                                    <a href=\"#\">\n" +
+                "                                        <i class=\"iconify icon\" data-icon=\"ion-ios-shuffle-strong\" ></i>\n" +
+                "                                    </a>\n" +
+                "                                </li>\n" +
+                "                                <li>\n" +
+                "                                    <a href=\"#\">\n" +
+                "                                        <i class=\"iconify icon\" data-icon=\"carbon:favorite\"></i>\n" +
+                "                                    </a>\n" +
+                "                                </li>\n" +
+                "                            </ul>\n" +
+                "                        </div>\n" +
+                "                    </div>\n" +
+                "                </div>";
+            document.getElementById("items").innerHTML +=html;
+        })
+    </script>
+</body>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</html>
