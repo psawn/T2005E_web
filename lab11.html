@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab11</title>
+    <link rel="stylesheet" type="text/css" href="css/lab11.css">
+</head>
+<body>
+<div class="container">
+<div class="btn_list">
+    <div class="btn"><div class="wall" tabindex="0" onclick="btn(this)" onblur="remove(this)">Home</div></div>
+    <div class="btn"><div class="wall" tabindex="0" onclick="btn(this)" onblur="remove(this)" >Profile</div></div>
+    <div class="btn"><div class="wall" tabindex="0" onclick="btn(this)" onblur="remove(this)">Messages</div></div>
+    <div class="btn"><div class="wall" tabindex="0" onclick="btn(this)" onblur="remove(this)">Settings</div></div>
+    <div class="line"></div>
+</div>
+    <p id="content"></p>
+</div>
+</body>
+<script>
+    function btn(e) {
+        document.getElementById("content").innerHTML= "This is "+e.innerText+" content";
+        e.style.border = "1px solid #a8a6a6";
+        e.style.borderBottomColor = "#ffffff";
+    }
+    function remove(e) {
+        e.style.border = "1px solid #ffffff";
+        e.style.borderBottomColor = "#a8a6a6";
+    }
+</script>
+</html>
