@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section {
+    float: left;
+    width: 100%;
+}
+.container {
+    width: 600px;
+    margin: 50px auto;
+}
+.clock {
+    float: left;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.clock img {
+    width: 100%;
+}
+.hour {
+    position: absolute;
+    height: 210px;
+    width: 6px;
+    top: 201px;
+    left: calc(50% - 3px);
+}
+.min {
+    position: absolute;
+    height: 250px;
+    width: 4px;
+    top: 180px;
+    left: calc(50% - 2px);
+}
+.sec {
+    position: absolute;
+    height: 380px;
+    width: 2px;
+    top: 115px;
+    left: calc(50% - 1px);
+}
+.color {
+    float: left;
+    width: 100%;
+    height: 60%;
+    background-color: black;
+}
+.sec .color {
+    background-color: red;
+}
