@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.section {
+    width: 100%;
+    float: left;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.list {
+    padding-left: 50px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../imgs/sky_background.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: segoe ui;
+}
+.item {
+    margin-top: 25px;
+    width: 245px;
+    margin-left: 25px;
+    border: 1px solid #4d7a8f;
+    float: left;
+    background-color: #aab9c6;
+    border-radius: 5px;
+}
+.date {
+    float: left;
+    margin: 22px 0 0 24px
+}
+.temp {
+    float: left;
+    margin: 26px 0 0 24px;
+    font-size: 28px;
+}
+.img {
+    float: left;
+}
+.description {
+    float: left;
+    margin: -20px 0 26px 24px
+}
