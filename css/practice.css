@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    color: #000000;
+    font-family: Arial;
+}
+.section {
+    float: left;
+    width: 100%;
+
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.container img {
+    width: 100%;
+}
+.menu {
+    position: absolute;
+    right: 0;
+    top: 0 ;
+}
+.menu ul {
+    margin-right: 100px;
+}
+.menu ul li {
+    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+    line-height: 103px;
+    list-style: none;
+    font-weight: 600;
+    color: #c4bf88;
+}
+.about-our-clan {
+    position: absolute;
+    top: 148px;
+    left: 390px;
+    font-size: 26px;
+}
+.team-roster {
+    position: absolute;
+    top: 148px;
+    right: 110px;
+    font-size: 26px;
+}
+.container_1 {
+    width: 1200px;
+    margin: -3px auto 0;
+    background-color: #6e6943;
+    height: 700px;
+}
+.left {
+    float: left;
+    width: 810px;
+}
+.right {
+    width: 390px;
+    float: left;
+}
+.member_list {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+.member_list .member {
+    width: calc(100% / 2);
+    float: left;
+    padding-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.member img {
+    width: 130px;
+}
+span.name {
+    font-weight: 600;
+    color: #d7d2ac;
+}
+.left_1 {
+    margin: 35px 50px 0;
+    font-size: 18px;
+}
+.left_1 p,.left_2 p {
+    line-height: 1.5;
+}
+p .line-throught {
+    text-decoration: underline;
+}
+h3 {
+
+}
+.left_2 {
+    margin: 35px 50px 0;
+    font-size: 18px;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #5c5731;
+    margin-bottom: 30px;
+}
